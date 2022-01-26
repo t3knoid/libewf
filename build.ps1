@@ -6,7 +6,7 @@ Param (
 	[string]$Configuration = ${Env:Configuration},
 	[string]$Platform = ${Env:Platform},
 	[string]$PlatformToolset = "",
-	[string]$PythonPath = "C:\Python37",
+	[string]$PythonPath = "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64",
 	[string]$VisualStudioVersion = "",
 	[string]$VSToolsOptions = "--extend-with-x64",
 	[string]$VSToolsPath = "..\vstools"
